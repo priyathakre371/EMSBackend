@@ -8,7 +8,7 @@ public class Demo2Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Demo2Application.class, args);
-		System.out.println("Demo2Application started...!!!");
+		System.out.println("EMSApplication started...!!!");
 		
 	}
 
