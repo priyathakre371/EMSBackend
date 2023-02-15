@@ -26,10 +26,10 @@ public class EmployeeServiceEmpl implements EmployeeService {
 	private EmployeeRepository empRepo;
 	
 	@Autowired
-	EvaluationRepository evalRepo;
+	private EvaluationRepository evalRepo;
 	
 	@Autowired
-	SkillsRepository skillRepo;
+	private SkillsRepository skillRepo;
 
 	DateTimeFormatter dateTimeFormmater = DateTimeFormatter.ofPattern("yyyy-dd-MM");
 
